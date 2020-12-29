@@ -40,7 +40,7 @@ public class BlockBreakerPanelHard extends JPanel implements KeyListener {
 		
 		
 		blocks = new ArrayList<Block>();
-		 ball = new Block(277,550,30,30,"ball6.png");
+		 ball = new Block(277,550,25,25,"ball6.png");
 		 paddle = new Block(200,600,200,40,"square.png");
 		 for(int i=0;i< 8; i++) 
 	    		blocks.add(new Block((i*60+45),40,60,25,"block2.png"));
@@ -158,7 +158,7 @@ public void paintComponent(Graphics g){
          	
          	
         	
-        	if(ball.y >getHeight() || score ==340) {
+        	if(ball.y > getHeight() || score ==340) {
         		
         		
             	thread = null;
