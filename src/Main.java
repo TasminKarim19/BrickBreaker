@@ -53,7 +53,7 @@ public class Main extends JFrame {
     	  JLabel l1 = new JLabel();
     	
     	JFrame startScreen = new JFrame("Let's Break The Bricks");
-    	  startScreen.setContentPane(new JLabel( new ImageIcon("F:\\ProjectPic\\rsz_startscreen.png")));
+    	  startScreen.setContentPane(new JLabel( new ImageIcon("E:\\ProjectPic\\rsz_startscreen.png")));
     	  
     	
     	startScreen.setLayout(null);

@@ -164,7 +164,7 @@ public void paintComponent(Graphics g){
               
               Image pic;
           	
-          	ImageIcon img = new ImageIcon("F:\\ProjectPic\\OkitaKUN.jpg");
+          	ImageIcon img = new ImageIcon("E:\\ProjectPic\\OkitaKUN.jpg");
           	
           	pic = img.getImage();
               super.paintComponent(g);
